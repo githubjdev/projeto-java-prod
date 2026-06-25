@@ -1,4 +1,4 @@
-package classeMail;
+package m01_classe_mail;
 
 public class ClasseMain1 {
 

@@ -1,4 +1,4 @@
-package variaveistipoeoperador;
+package m02_variaveis_tipoe_operador;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
