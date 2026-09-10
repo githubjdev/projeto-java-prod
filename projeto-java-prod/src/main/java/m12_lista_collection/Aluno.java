@@ -4,14 +4,32 @@ import java.util.Objects;
 
 public class Aluno {
 
+	private int id;
+
 	private String nome;
 	private int idade;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public Aluno(String nome, int idade) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
 	}
+
+	public Aluno(String nome, int idade, int id) {
+		super();
+		this.nome = nome;
+		this.idade = idade;
+		this.id = id;
+	}
+
 
 	public String getNome() {
 		return nome;
