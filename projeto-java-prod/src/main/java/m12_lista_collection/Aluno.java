@@ -30,7 +30,6 @@ public class Aluno {
 		this.id = id;
 	}
 
-
 	public String getNome() {
 		return nome;
 	}
@@ -63,5 +62,6 @@ public class Aluno {
 		Aluno other = (Aluno) obj;
 		return Objects.equals(nome, other.nome);
 	}
+	
 
 }
